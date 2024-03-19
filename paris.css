@@ -1,0 +1,163 @@
+
+body {
+    background-size: 100% 100%;
+}
+
+.pop {
+    background-image: url(https://images.pexels.com/photos/7557532/pexels-photo-7557532.jpeg?auto=compress&cs=tinysrgb&w=600 );
+    background-repeat: no-repeat;
+    position: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+    top: 100px;
+}
+
+#menu {
+    font-size: large;
+    height: 70px;
+    width: 1520px;
+    background-color: #ffa500;
+}
+
+#menu ul>li {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 6%;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(100, 19, 19);
+    padding-top: 1%;
+}
+
+li a:hover {
+    color: rgb(88, 217, 235);
+}
+
+ul li a {
+    color: rgb(172, 58, 58);
+    text-decoration: none;
+}
+.pop1 {
+    color: white;
+    margin-top: 15%;
+    padding-left: 25%;
+    font-size: 120px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.pop2 {
+    position: relative;
+    top: 600px;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2600px;
+}
+
+.pop6 {
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.pop3 .pop5 {
+    text-align: justify;
+    color: white;
+    float: left;
+    width: 45%;
+    height: 650px;
+    margin-right: 5%;
+    font-size: 38px;
+    padding-top: 1%;
+}
+
+.pop4 {
+    padding-left: 3%;
+}
+
+.pop7 {
+    margin-top: 5%;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.pop8 h1 {
+    float: right;
+    padding-right: 20%;
+}
+
+.pop7 .pop8 p {
+    text-align: justify;
+    color: white;
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin-right: 5%;
+    font-size: 31px;
+    padding-top: 0%;
+    padding-left: 45%;
+}
+
+.pop11 {
+    margin: 0 auto;
+    flex: 1 0 auto;
+    width: 200vh;
+    background-size: 35% 100%;
+    height: 700px;
+    border: 3px solid white;
+    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/16977467/pexels-photo-16977467/free-photo-of-chateau-du-louvre.jpeg?auto=compress&cs=tinysrgb&w=600);
+    -webkit-animation-name: diapo;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -moz-animation-name: diapo;
+    -moz-animation-duration: 30s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    animation-name: diapo;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes diapo {
+    0% {
+        background-image: url(https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&w=600);
+    }
+    25% {
+        background-image: url(https://images.pexels.com/photos/60027/eiffel-tower-paris-france-tower-60027.jpeg?auto=compress&cs=tinysrgb&w=600);
+    }
+    50% {
+        background-image: url(https://images.pexels.com/photos/1530259/pexels-photo-1530259.jpeg?auto=compress&cs=tinysrgb&w=600);
+    }
+    75% {
+        background-image: url(https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&w=600);
+    }
+}
+
+.pop9 h1 {
+    padding-left: 5%;
+}
+
+.pop9 p {
+    font-size: 30px;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.pop10 {
+    padding-left:  7%;
+}
